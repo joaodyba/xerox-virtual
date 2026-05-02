@@ -1,4 +1,9 @@
 # Xerox Virtual
+
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Ferramenta de captura de tela que detecta automaticamente quando as páginas estão totalmente renderizadas antes de capturar, a fim de evitar imagens borradas/incompletas. Inclui seleção de área via interface gráfica (tkinter), navegação gráfica entre páginas e exportação em PDF.
 
 ## Aviso de uso
@@ -30,11 +35,22 @@ Este projeto foi criado para automatizar a captura de conteúdos paginados que n
 1. Clone o repositório
   ```
   git clone https://github.com/joaodyba/xerox-virtual.git
-  cd seu-repo
+  cd xerox-virtual
   ```
 2. Instale as dependências
 ```
 pip install pyautogui pillow mss numpy keyboard img2pdf
+```
+
+## Estrutura do projeto
+
+```
+
+xerox-virtual/
+│── index.py
+│── README.md
+│── LICENSE
+
 ```
 
 ## Como deve ser utilizado
@@ -59,7 +75,7 @@ python index.py
    - Evitar capturas duplicadas
    - Gerar um PDF final automaticamente
 
-## Controle
+## Controles
 | Tecla        | Ação |
 |--------------|------|
 | `ESC`        | Interrompe o processo imediatamente |
