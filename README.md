@@ -45,12 +45,10 @@ pip install pyautogui pillow mss numpy keyboard img2pdf
 ## Estrutura do projeto
 
 ```
-
 xerox-virtual/
 │── index.py
 │── README.md
 │── LICENSE
-
 ```
 
 ## Como deve ser utilizado
